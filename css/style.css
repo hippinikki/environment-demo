@@ -1,0 +1,53 @@
+body {
+    background-color: #AADDD9;
+}
+#heroGrid {
+    margin: 0px 5%;
+    display: inline-block;
+    min-height: 500px;
+    height: 70vh;
+    grid-template-rows: 75% 25%;
+}
+.logo {
+    display: inline-block;
+    width: 100%;
+}
+.navMenu {
+    margin: top 10px;
+    justify-content: space-between;
+    font-family: 'Quicksand', sans-serif;
+    color: #006365;
+    float: right;
+    display: block;
+    padding-top: 18px;
+    padding-right: 10px;
+    margin-right: 40px;
+    
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+h2 {
+    font-family: 'Radley', serif;
+    color: #006365;
+}
+h1 {
+    font-family: 'Radley', serif;
+    color: #006365;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 15px;
+    
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #006365;
+}
+#navigation {
+    display: inline-block;
+    flex-direction: row-reverse;
+}
