@@ -3,28 +3,85 @@
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&family=Radley&display=swap" rel="stylesheet">
-        <link href="CSS/style.css" rel= "stylesheet" type="text/css">
+        <link href="C:\Users\14077\Documents\UCF Boot Camp\MyCode\16-Week\UX_UI_HW_18\CSS\style.css" rel= "stylesheet" type="text/css">
         <title>Portfolio</title>
-        <body>
+    <body>
         <nav id="navBar">
-            <h1>Nikki Hanacek</h1>
+            <h1>Sarah</h1>
             <nav id="navigation" class="navMenu">
-                <a href="" class="navMenu" style="max-width: 2000px;">About</a>
-                <a href="" class="navMenu" style="max-width: 2000px;">Skills</a>
-                <a href="" class="navMenu" style="max-width: 2000px;">Work</a>
-                <a href="" class="navMenu" style="max-width: 2000px;">Contact</a>
-                <a href="" class="navMenu" style="max-width: 2000px;"><button>Resume</button></a></nav>
+                <a href="#about" class="navMenu" style="max-width: 2000px;">About</a>
+                <a href="#skills" class="navMenu" style="max-width: 2000px;">Skills</a>
+                <a href="#work" class="navMenu" style="max-width: 2000px;">Work</a>
+                <a href="#contact" class="navMenu" style="max-width: 2000px;">Contact</a>
+                <a href="#resume" class="navMenu" style="max-width: 2000px;"><button>Resume</button></a></nav>
             </nav>
     </head>
             <img src="images\Logo 1.png"style="width: 200px;"class="logo">
         </div>
-        <section id="heroGrid">
-            <div id="content" class="heroGridArea">
-                <h2 id="aboutMe">About Me</h2></div>
+        <section id="about">
+            <div class="heroGridArea">
+                <h2 class="aboutMe">About Me</h2>
+            </div>
                 <p>Paragraph about me</p>
-                <img src="images\nikk portugal.jpg" alt="About Me Photo"style=width:300px; class="me">    
+                <img src="images\nikk portugal.jpg" 
+                alt="About Me Photo"style= width:300px; class="me">    
             </div>
         </section>
+        
+        <section id="skills">
+            <h1>My UX Skills</h1>
+                    <div class="flexContainer">
+                    <div class="quality">
+                        <img src="images\noun_Lotus_1987891 1.png" 
+                        alt="Lotus" style=width:200px; class="lotus">
+                        <h2>Quality</h2>
+                        <p>I use this because I am....</p>
+                    </div>
+                    <div class="reliability">
+                        <img src="images\noun_Peace_1029378 1.png" 
+                        alt="Peace" style=width:200px; class="peace">
+                        <h2>Reliability</h2>
+                        <p>I use this because I am....</p>
+                    </div>
+                    <div class="communication">
+                        <img src="images\Shaka.png" 
+                        alt="Shaka" style=width:200px; class="shaka">
+                        <h2>Communication</h2>
+                        <p>I use this because I am....</p>
+                    </div>
+                    </div>
+        </section>
+        <section id="work">
+            <h1>My Work</h1>
+            <div class="workGrid">
+                <div>
+                    <img src="images\Gourpet.png" class="gourpet" style=width:300px>
+                </div>
+                <div>
+                    <h4>Gourpet</h4>
+                    <p>I completed this by...</p>
+                    <button>Click here to see more!</button>
+                </div>
+                <div>
+                    <img src="images\DOI.png" class="DOI" style=width:300px>
+                </div>
+                <div>
+                    <h4>DOI</h4>
+                    <p>I completed this by...</p>
+                    <button>Click here to see more!</button>
+                </div>
+                <div>
+                    <img src="images\Shaka.png" class="TBD" style=width:300px>
+                </div>
+                <div>
+                    <h4>TBD</h4>
+                    <p>I completed this by...</p>
+                    <button>Click here to see more!</button>
+                </div>
+            </div>
+            <h3>View All Projects</h3>
+        </section>
     </body>
+    <script src="scripts.js"></script>
 </html>
 <link>

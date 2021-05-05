@@ -1,7 +1,10 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background-color: #AADDD9;
 }
-#heroGrid {
+#about {
     margin: 0px 5%;
     display: inline-block;
     min-height: 500px;
@@ -11,29 +14,22 @@ body {
 .logo {
     display: inline-block;
     width: 100%;
+
 }
 .navMenu {
-    margin: top 10px;
+    margin-top: 10px;
     justify-content: space-between;
     font-family: 'Quicksand', sans-serif;
     color: #006365;
-    float: right;
-    display: block;
-    padding-top: 18px;
-    padding-right: 10px;
-    margin-right: 40px;
-    
-}
+    display: flex;
+    width: 100vw;
 
+}
 img {
     border: 0;
     max-width: 100%;
     vertical-align: middle;
     display: inline-block;
-}
-h2 {
-    font-family: 'Radley', serif;
-    color: #006365;
 }
 h1 {
     font-family: 'Radley', serif;
@@ -41,13 +37,45 @@ h1 {
     display: inline-block;
     padding-top: 10px;
     padding-left: 15px;
-    
+}
+h2 {
+    font-family: 'Radley', serif;
+    color: #006365;
 }
 p {
     font-family: 'Quicksand', sans-serif;
     color: #006365;
 }
-#navigation {
-    display: inline-block;
-    flex-direction: row-reverse;
+.flexContainer {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+}
+.workGrid {
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 100%;
+    grid-template-areas: "gourpet" "DOI" "TBD";      
+}
+@media only screen and (max-width:600) {
+    .flexContainer {
+        flex-direction: column;
+    }
+    .quality {
+        width: 100%;
+    }
+    .reliability {
+        width: 100%;
+    }
+    .communication {
+        width: 100%;
+    }
+    .workGrid {
+        grid-template-rows: 300px 300px ;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "gourpet DOI"
+        "TBD";
+    }
 }
